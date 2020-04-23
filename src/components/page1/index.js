@@ -1,14 +1,16 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import {StyledButton, FlexContainer, StyledHeader} from '../styles'
+
 const Page1 = function (props) {
   return (
-    <div className="flex-container">
-      <h1 className="styled-header">Styled Components Interactive Example</h1>
+    <FlexContainer>
+      <StyledHeader>Styled Components Interactive Example</StyledHeader>
       <Link to={'/page2'}>
-        <div className="styled-button">Go To Page 2</div>
+        <StyledButton>Go To Page 2</StyledButton>
       </Link>
-    </div>
+    </FlexContainer>
   )
 }
 export default Page1
