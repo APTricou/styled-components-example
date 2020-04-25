@@ -14,6 +14,16 @@ const StyledButton = styled.div`
   color: mediumpurple;
   background-color: whitesmoke;
   transition: all 0.5s ease;
+
+  :hover {
+    height: 5.5rem;
+    width: 11rem;
+    margin: 0;
+    width: 12rem;
+    line-height: 5.5rem;
+    background-color: mediumpurple;
+    color: whitesmoke;
+  }
 `
 
 export default StyledButton
