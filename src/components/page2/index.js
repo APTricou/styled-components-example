@@ -1,6 +1,6 @@
 import React from 'react'
 
-const page2 = function (props) {
+const Page2 = function (props) {
   return (
     <div
       style={{
@@ -43,4 +43,4 @@ const page2 = function (props) {
     </div>
   )
 }
-export default page2
+export default Page2
